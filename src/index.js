@@ -5,7 +5,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import App from './component/App';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker'
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+global.jQuery = $;
+const bootstrap = require('bootstrap');
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

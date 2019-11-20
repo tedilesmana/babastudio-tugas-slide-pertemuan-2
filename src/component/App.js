@@ -3,11 +3,6 @@ import Grid from './Grid';
 import Home from './Home/Home'
 import '../style/style.css';
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import $ from 'jquery';
-
-window.jQuery = $;
-window.$ = $;
-global.jQuery = $;
 
 class App extends Component {
 render() {
